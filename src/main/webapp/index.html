@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio Formulario</title>
+        <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="recursos/estilos.css">
+        <script type="text/javascript" src="recursos/funciones.js"></script>
+    </head>
+    <body>
+        <form name="form1" action="/ManejoFormulariosHTML/Servlet" method="post" >
+            <input type="hidden" name="oculto" value="valorOculto"/>
+
+            <table width="200" id="enfasis-columna">
+                <caption>
+                    Formulario Registro de Datos
+                </caption>
+                <tr>
+                    <td class="columna">
+                        Name: 
+                    </td>
+                    <td>
+                        <input class="default" type="text" name="name" 
+                                onfocus="this.select()"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="columna">
+                        Last Name: 
+                    </td>
+                    <td>
+                        <input class="default" type="text" name="lastname"
+                               onfocus="this.select()"/>
+                    </td>
+                </tr>
+                <tr>
+                   <td class="columna">
+                        Age:  
+                    </td>
+                    <td>
+                        <input class="default" type="text" name="age"
+                               onfocus="this.select()"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="columna">
+                        Country:  
+                    </td>
+                    <td>
+                        <input class="default" type="text" name="country"
+                               onfocus="this.select()"/>
+                    </td>
+                </tr>
+                
+                
+                <tr style="text-align: center">
+                    
+                    <td>
+                        <input type="submit" value="Enviar" class="default">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

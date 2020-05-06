@@ -1,0 +1,4 @@
+name = Ramon
+lastname = Gonzalez
+age = 33
+country = Mexico
