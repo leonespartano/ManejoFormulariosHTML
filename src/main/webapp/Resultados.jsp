@@ -51,7 +51,7 @@
                         Country:  
                     </td>
                     <td>
-                        <input class="default" type="text" name="country" value="country"
+                        <input class="default" type="text" name="country" value="${country}"
                                onfocus="this.select()"/>
                     </td>
                 </tr>

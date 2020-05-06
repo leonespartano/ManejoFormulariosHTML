@@ -37,7 +37,7 @@ public class Servlet extends HttpServlet {
             request.setAttribute("name", name);
             request.setAttribute("lastname", lastname);
             request.setAttribute("age", age);
-            request.setAttribute("coutry", country);
+            request.setAttribute("country", country);
            
             RequestDispatcher rd = request.getRequestDispatcher("/Resultados.jsp");
             rd.forward(request, response);
